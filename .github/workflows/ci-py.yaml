@@ -1,10 +1,10 @@
+nmae: Bookinfo Productpage CI
 on:
   push:
     branches:
-      - master
       - feature/*
     paths:
-      - src/productpage
+      - ./src/productpage
 defaults:
   run:
     working-directory: ./src/productpage
